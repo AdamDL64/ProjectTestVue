@@ -1,0 +1,16 @@
+{
+  "name": "node_vue-meeting-room-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:frontend":"cd frontend && npm run serve",
+    "start:backend":"cd Backend && npm start"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
